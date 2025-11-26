@@ -99,11 +99,11 @@ jobs:
 ### Thank You Dear
 
 > DEVELOPER OF Limkid-X 
-- [TRENDEX ](https://github.com/jayvon33)
+- [LIMKID-X ](https://github.com/jayvon33)
 - Creater and Owner Of Limkid-X 
 
 > Limkid-X Helper
-- [TRENDEX](https://github.com/jayvon33)
+- [LIMKID-X](https://github.com/jayvon33)
 - For helping in bot plugin files.
 ---
 <a><img src='https://i.imgur.com/LyHic3i.gif'/># Limkid-X 
