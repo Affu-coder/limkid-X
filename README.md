@@ -1,5 +1,10 @@
 # Limkid-X 
 
+<img src = "https://files.catbox.moe/y81ycy.jpg"  width="500" height="450">
+</img>
+Limkid-X is a powerful, multi-feature WhatsApp bot designed for automation, group management, media tools and much more.  
+Deploy it in minutes and start using advanced commands on your WhatsApp.
+ <p align="center">
 <img src="" height="90" width="100%">
 𝐒𝐢𝐦𝐩𝐥𝐞 𝐁𝐞𝐬𝐭 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐁𝐨𝐭 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 Limkid-X 🌝💚
 <div class = "repo" align = "center">
