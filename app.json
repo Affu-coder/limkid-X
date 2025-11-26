@@ -1,6 +1,6 @@
 {
   "name": "LIMKID-X",
-  "description": "An Advanced Whatsapp bot 🚀 built for fast automation, media tool, and smooth group management developed by trendex",
+  "description": "An Advanced Whatsapp bot 🚀 built for fast automation, media tool, and smooth group management developed by jay von",
   "logo": "https://files.catbox.moe/j2h8dg.jpg",
   "keywords": ["LIMKID-X"],
   "success_url": "/",
@@ -137,7 +137,7 @@
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ TRENDEX KING*"
+      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Limkid-X KING*"
     },
 
       "DELETE_LINKS": {
