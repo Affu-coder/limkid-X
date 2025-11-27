@@ -38,7 +38,7 @@ PREFIX: process.env.PREFIX || ".",
     // Timezone for the auto-bio feature
     TIME_ZONE: process.env.TIME_ZONE || "Asia/Kolkata",  // Change to your preferred timezone
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "TREND-X",
+BOT_NAME: process.env.BOT_NAME || "Limkid-X",
 // add bot namw here for menu
 STICKER_NAME: process.env.STICKER_NAME || "LIMKID-X",
 // type sticker pack name 
