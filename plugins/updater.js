@@ -16,24 +16,24 @@ cmd({
     if (!isOwner) return reply("This command is only for the bot owner.");
 
     try {
-        await reply("🔍 Checking for TREND-X updates...");
+        await reply("🔍 Checking for LIMKID-X updates...");
 
         // Fetch the latest commit hash from GitHub
-        const { data: commitData } = await axios.get("https://api.github.com/repos/trendex2030/TREND-X/commits/main");
+        const { data: commitData } = await axios.get("https://api.github.com/repos/jayvon33/limkid-X/commits/main");
         const latestCommitHash = commitData.sha;
 
         // Get the stored commit hash from the database
         const currentHash = await getCommitHash();
 
         if (latestCommitHash === currentHash) {
-            return reply("✅ Your TREND-X bot is already up-to-date!");
+            return reply("✅ Your LIMKID-X bot is already up-to-date!");
         }
 
-        await reply("🚀 Updating TREND-X Bot...");
+        await reply("🚀 Updating Limkid-X Bot...");
 
         // Download the latest code
         const zipPath = path.join(__dirname, "latest.zip");
-        const { data: zipData } = await axios.get("https://github.com/trendex2030/TREND-X/archive/main.zip", { responseType: "arraybuffer" });
+        const { data: zipData } = await axios.get("https://github.com/jayvon33/limkid-X/archive/main.zip", { responseType: "arraybuffer" });
         fs.writeFileSync(zipPath, zipData);
 
         // Extract ZIP file
@@ -44,7 +44,7 @@ cmd({
 
         // Copy updated files, preserving config.js and app.json
         await reply("🔄 Replacing files...");
-        const sourcePath = path.join(extractPath, "TREND-X-main");
+        const sourcePath = path.join(extractPath, "LIMKID-X-main");
         const destinationPath = path.join(__dirname, '..');
         copyFolderSync(sourcePath, destinationPath);
 
