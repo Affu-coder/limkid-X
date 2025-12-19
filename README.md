@@ -1,51 +1,197 @@
-# Limkid-X 
+# Limkid‑X — Modern WhatsApp Bot 
 
-<img src = "https://files.catbox.moe/y81ycy.jpg"  width="500" height="450">
-</img>
-Limkid-X is a powerful, multi-feature WhatsApp bot designed for automation, group management, media tools and much more.  
-Deploy it in minutes and start using advanced commands on your WhatsApp.
- <p align="center">
-<img src="" height="90" width="100%">
-𝐒𝐢𝐦𝐩𝐥𝐞 𝐁𝐞𝐬𝐭 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐁𝐨𝐭 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 Limkid-X 🌝💚
-<div class = "repo" align = "center">
- 
-<a href = "#">
-<img src = "https://media.tenor.com/rePDfDWO3XoAAAAd/hacking.gif"  width="300" height="200">
-</img>
- <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff00ab&center=true&vCenter=true&multiline=false&lines=Limkid-X+MD+WHATSAPP+BOT+MD" alt="">
-   
-## 𝐃𝐄𝐏𝐋𝐎𝐘 𝐒𝐄𝐓𝐔𝐏 ↕️
-
-**1. Fork This Repository**
-
-*_Start by forking this repository to your own GitHub account. Click the button below to fork:_*
-
-  <a href="https://github.com/jayvon33/limkid-X/fork"><img title="LIMKID-X" src="https://img.shields.io/badge/FORK-LIMKID-Xh?color=darkblue&style=for-the-badge&logo=stackshare"></a>
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
-
-🔑 Get Session ID (WhatsApp Pair Code Login)
-
-> To deploy, generate your session ID from the link below:
-<p align="left">
-  <a href="https://limkid-x-whatsapp-bot-618.created.app/limkid-x">
-    <img src="https://img.shields.io/badge/%F0%9F%9A%80%20GET%20PAIR%20CODE%20WEB-ffcc00?style=for-the-badge"/>
-  </a>
+<p align="center">
+  <img src="https://files.catbox.moe/o2zvp8.jpg" alt="Limkid-X" width="700"/>
 </p>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
+<p align="center">
+  <strong>Limkid‑X</strong> — a powerful, multi‑feature WhatsApp automation bot for groups, media tools, moderation and more. Deploy in minutes and run like an app.
+</p>
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+<!-- Typing animation: types "Limkid-X Whatsapp bot", then deletes and types "by jay von" -->
+<p align="center">
+  <img alt="Typing animation" src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2500&color=ff00ab&center=true&vCenter=true&multiline=true&width=700&height=48&lines=Limkid-X+Whatsapp+bot;by+jay+von" />
+</p>
 
-2. **Obtain the Session ID**: After accessing the URL, you should see a session ID displayed. Copy this session ID.
+<p align="center">
+  <a href="https://github.com/jayvon33/limkid-X/fork"><img alt="Fork" src="https://img.shields.io/badge/FORK-LIMKID--X-blue?style=for-the-badge"/></a>
+  <a href="https://pairlimkid-f0adcc9718da.herokuapp.com/pair"><img alt="Get Pair Code" src="https://img.shields.io/badge/Get%20Pair%20Code-%23ffcc00?style=for-the-badge&logo=webhook"/></a>
+  <a href="https://pairlimkid-f0adcc9718da.herokuapp.com/qr"><img alt="Get QR Pair" src="https://img.shields.io/badge/QR%20Pair-%2300b7ff?style=for-the-badge&logo=qr-code"/></a>
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/jayvon33/limkid-X"><img alt="Deploy to Heroku" src="https://www.herokucdn.com/deploy/button.svg"/></a>
+  <a href="https://render.com/deploy?repo=https://github.com/jayvon33/Limkid-X.git"><img alt="Deploy to Render" src="https://render.com/images/deploy-to-render-button.svg"/></a>
+</p>
 
+---
 
-   
-  1..DEPLOY ON HEROKU ⤵️
-  
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/jayvon33/limkid-X) 
-   
+## Quick Preview
+
+<p align="center">
+  <img src="https://media.tenor.com/rePDfDWO3XoAAAAd/hacking.gif" alt="Demo" width="480"/>
+</p>
+
+---
+
+## Key Features
+
+- App-like, easy-to-follow setup and deployment
+- Pairing (SESSION_ID) or QR pairing UI for quick bot login
+- Group management: moderation, welcome/leave messages, anti-spam
+- Media tools: image/audio processing, sticker creation, converters
+- Automation: scheduled tasks, auto‑reply, command handlers
+- Plugin-friendly: extend commands and modules easily
+
+---
+
+## Pairing & Sessions
+
+You can pair your WhatsApp session using either the Pairing website (session ID) or the QR Pair:
+
+- Pairing website (session ID): https://pairlimkid-f0adcc9718da.herokuapp.com/pair  
+  Click the link, copy the displayed Session ID and add it to your environment variables as `SESSION_ID`.
+
+- QR Pair (scan with your phone): https://pairlimkid-f0adcc9718da.herokuapp.com/qr
+
+Important: Keep your session ID private — treat it like a password.
+
+---
+
+## Installation & Deployment (App‑style)
+
+Choose Heroku, Render or GitHub Actions.
+
+### 1) Fork the repository
+Fork to your account: https://github.com/jayvon33/limkid-X/fork
+
+### 2) Configure environment variables
+Set these config vars / secrets on your host:
+- SESSION_ID — (required) the session ID you obtained
+- OWNER_NUMBER — your WhatsApp number (e.g., +13045593649)
+- PREFIX — command prefix (e.g. `!` or `/`)
+- PORT — (if required)
+- NODE_ENV — `production`
+
+### 3) One-click Deploys
+- Heroku: use the button above, supply env vars and deploy.
+- Render: use the Render button above and follow deploy steps.
+- GitHub Actions: create `.github/workflows/main.yml` (example below) and add secrets to repository settings.
+
+Example GitHub Actions workflow:
+```yaml
+name: Deploy Limkid-X (CI)
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20.x]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Install dependencies
+        run: npm install --legacy-peer-deps
+      - name: Start
+        run: npm start
+```
+
+### 4) Run locally
+1. Clone your fork:
+   - git clone https://github.com/<your-username>/limkid-X.git
+2. Install:
+   - npm install
+3. Create a `.env` with required values (or use environment variables)
+4. Start:
+   - npm start
+
+---
+
+## Quick Commands (examples)
+
+- /help — Show list of commands and usage
+- /sticker <image> — Convert image to sticker
+- /ban @user — Ban a user (group admin only)
+- /welcome on|off — Toggle welcome messages
+- /setprefix <char> — Change bot command prefix (owner only)
+
+(Replace with the full command list from your bot's code — consider adding a Commands.md later.)
+
+---
+
+## Contact & Community
+
+All clickable social badges below open the corresponding link or chat.
+
+- Telegram (Developer / Support):  
+  [![Telegram](https://img.shields.io/badge/Telegram-@jayvonkid-26A5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/jayvonkid)
+
+- Telegram (Group / Channel):  
+  [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-26A5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/jayvonkid)
+
+- Instagram:  
+  [![Instagram](https://img.shields.io/badge/Instagram-@jayvon306-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/jayvon306)
+
+- WhatsApp (Owner):  
+  [![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B1%20(304)%20559-3649-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/13045593649)
+
+- WhatsApp (Support):  
+  [![Support WhatsApp](https://img.shields.io/badge/Support-%2B233%2050%20431%204086-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/233504314086)
+
+Other links:
+- Repo (Limkid‑X): https://github.com/jayvon33/limkid-X  
+- Fork this repo: https://github.com/jayvon33/limkid-X/fork  
+- Issues / Bug Reports: https://github.com/jayvon33/limkid-X/issues
+
+Phone numbers (plain text):
+- Owner WhatsApp: +1 (304) 559-3649  
+- Support (WhatsApp): +233 50 431 4086
+
+---
+
+## Screenshots & Demo
+
+Add screenshots or short GIFs showing:
+- Pairing flow (pair site & QR)
+- Example bot responses in a group
+- Sticker/media conversion examples
+
+---
+
+## Security & Privacy
+
+- Keep your SESSION_ID secret and store it in Config Vars or Secrets.
+- Do not share your session ID publicly.
+- Use responsibly and follow WhatsApp Terms of Service.
+
+---
+
+## Contributing
+
+We welcome contributions:
+1. Fork the repo
+2. Create a feature branch
+3. Open a PR describing your change
+4. Add tests and documentation for new features
+
+For plugin authors: add a plugin folder with README, example commands, and export an init function the bot loads.
+
+---
+
+## License
+
+This repository currently has no license file. Add a LICENSE (e.g., MIT) if you want others to reuse your code.
+
+---
+
+Thank you for using Limkid‑X — deploy fast, manage smarter, and customize your WhatsApp experience.   
    
   2..DEPLOY ON RENDER ⤵️
 
