@@ -39,7 +39,7 @@ async(conn, mek, m, {
         
         await conn.sendMessage(from, {
             image: { 
-                url: "https://files.catbox.moe/adymbp.jpg" 
+                url: "https://files.catbox.moe/y81ycy.jpg" 
             },
             caption: `✅ Successfully demoted @${number} to a normal member.`,
             mentions: [jid],
