@@ -49,7 +49,7 @@ async(conn, mek, m, {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363401765045963@newsletter',
-                    newsletterName: 'TREND-X 𝐃𝐄𝐌𝐎𝐓𝐄',
+                    newsletterName: 'LIMKID-X 𝐃𝐄𝐌𝐎𝐓𝐄',
                     serverMessageId: 143
                 }
             }
