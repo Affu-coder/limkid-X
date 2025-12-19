@@ -19,7 +19,7 @@ cmd({
 async (conn, mek, m, { from, quoted, reply }) => {
     try {
         // Define the settings message with the correct boolean checks
-        let envSettings = `╭〔 *【TREND-X 】* 〕⊷
+        let envSettings = `╭〔 *【LIMKID-X 】* 〕⊷
 ┃▸╭───────────
 ┃▸┃๏ *ENV SETTINGS 👻*
 ┃▸└───────────···๏
@@ -56,7 +56,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363401765045963@newsletter',
-                        newsletterName: "TREND-X  𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒🥰",
+                        newsletterName: "LIMKID-X  𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒🥰",
                         serverMessageId: 143
                     }
                 }
