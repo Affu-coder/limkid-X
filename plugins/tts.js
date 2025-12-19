@@ -24,7 +24,7 @@ async (conn, mek, m, { from, q, reply }) => {
         const response = await axios.get(url);
         const translation = response.data.responseData.translatedText;
 
-        const translationMessage = `> *TREND-X-TRANSLATION*
+        const translationMessage = `> *LIMKID-X-TRANSLATION*
 
 > 🔤 *Original*: ${textToTranslate}
 
