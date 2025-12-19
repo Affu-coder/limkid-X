@@ -33,7 +33,7 @@ async(conn, mek, m, {
     if (number === botNumber) return reply("❌ The bot cannot promote itself.");
 
     const jid = number + "@s.whatsapp.net";
-    const imageUrl = "https://files.catbox.moe/adymbp.jpg"; // Replace with your actual image URL
+    const imageUrl = "https://files.catbox.moe/y81ycy.jpg"; // Replace with your actual image URL
 
     try {
         await conn.groupParticipantsUpdate(from, [jid], "promote");
@@ -49,7 +49,7 @@ async(conn, mek, m, {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363401765045963@newsletter',
-                    newsletterName: 'TREND-X 𝐏𝐑𝐎𝐌𝐎𝐓𝐄',
+                    newsletterName: 'LIMKID-X 𝐏𝐑𝐎𝐌𝐎𝐓𝐄',
                     serverMessageId: 143
                 }
             }
