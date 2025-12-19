@@ -27,13 +27,13 @@ cmd({
         const media = response.data.BK9;
         
         // Prepare the caption
-        const desc = `*TREND-X *
+        const desc = `*LIMKID-X *
 
 *PINS DOWNLOADER*
 ╭━━❐━⪼
 ┇๏ *Owner* - ${response.data.owner}
 ╰━━❑━⪼
-> *© Pᴏᴡᴇʀᴇᴅ Bʏ TREND-X  ♡*`;
+> *© Pᴏᴡᴇʀᴇᴅ Bʏ LIMKID-X  ♡*`;
 
         // Check if there are any media items
         if (media.length > 0) {
