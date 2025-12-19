@@ -29,7 +29,7 @@ async (conn, mek, m, { from, sender, reply, isGroup }) => {
     try {
       imageUrl = await conn.profilePictureUrl(targetJid, 'image');
     } catch {
-      imageUrl = "https://files.catbox.moe/adymbp.jpg";
+      imageUrl = "https://files.catbox.moe/y81ycy.jpg";
     }
 
     const fakeVCard = {
@@ -40,8 +40,8 @@ async (conn, mek, m, { from, sender, reply, isGroup }) => {
       },
       message: {
         contactMessage: {
-          displayName: "TREND-X  TECH ✅",
-          vcard: "BEGIN:VCARD\nVERSION:3.0\nFN: TRENDX ✅\nORG: TREND-X;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD",
+          displayName: "LIMKID-X  TECH ✅",
+          vcard: "BEGIN:VCARD\nVERSION:3.0\nFN: LIMKIDX ✅\nORG: LIMKID-X;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD",
           jpegThumbnail: Buffer.from([])
         }
       }
