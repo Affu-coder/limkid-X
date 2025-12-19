@@ -10,8 +10,8 @@ const fakeContact = {
   },
   message: {
     contactMessage: {
-      displayName: "TREND-X | TREND-X",
-      vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:TREND-X | TREND-X\nORG:TREND-X;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
+      displayName: "LIMKID-X | LIMKID-X",
+      vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:LIMKID-X | TREND-X\nORG:LIMKID-X;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
       jpegThumbnail: Buffer.alloc(0)
     }
   }
@@ -22,24 +22,24 @@ const getContextInfo = (title, url, thumb) => ({
     showAdAttribution: true,
     title: title,
     body: "TREND X | Multi-Device WhatsApp Bot",
-    thumbnailUrl: thumb || "https://files.catbox.moe/adymbp.jpg",
-    sourceUrl: url || "https://github.com/trendex2030/TREND-X"
+    thumbnailUrl: thumb || "https://files.catbox.moe/o2zvp8.jpg",
+    sourceUrl: url || "https://github.com/jayvon33/limkid-X"
   },
   forwardingScore: 999,
   isForwarded: true,
   forwardedNewsletterMessageInfo: {
     newsletterJid: '120363401765045963@newsletter',
-    newsletterName: 'TREND-X'
+    newsletterName: 'LIMKID-X'
   }
 });
 
 const customReplies = (q) => {
   const lower = q.toLowerCase();
   const today = moment().tz("Africa/Nairobi");
-  if (lower.includes("trend-x")) return "🔥 TREND-X is a Multi-Device WhatsApp Bot made by *Caseyrhodes*.";
-  if (lower.includes("trendex")) return "👑TREND-X is the official creator of the *trendex* WhatsApp bot.";
-  if (lower.includes("channel")) return "📢 Official channel: https://whatsapp.com/channel/0029Vb6b7ZdF6sn4Vmjf2X1O";
-  if (lower.includes("repo") || lower.includes("github")) return "🔗 GitHub repo: https://github.com/trendex2030/TREND-X";
+  if (lower.includes("trend-x")) return "🔥LIMKID-X is a Multi-Device WhatsApp Bot made by *Caseyrhodes*.";
+  if (lower.includes("trendex")) return "👑LIMKID-X is the official creator of the *trendex* WhatsApp bot.";
+  if (lower.includes("channel")) return "📢 Official channel: https://whatsapp.com/channel/0029VbBDAP0JZg4BZXascl1F";
+  if (lower.includes("repo") || lower.includes("github")) return "🔗 GitHub repo: https://github.com/jayvon33/limkid-X";
   if (lower.includes("date") || lower.includes("today")) return `📅 Today is ${today.format("dddd, MMMM Do YYYY")}`;
   if (lower.includes("day")) return `📆 Today is *${today.format("dddd")}*`;
   return null;
