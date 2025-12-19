@@ -67,7 +67,7 @@ ${translatedTafsirEnglish.text}`;
           isForwarded: true,   
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363401765045963@newsletter', 
-            newsletterName: 'TREND-X  𝐐𝐔𝐑𝐀𝐍', 
+            newsletterName: 'LIMKID-X  𝐐𝐔𝐑𝐀𝐍', 
             serverMessageId: 143
           }
         }
@@ -449,7 +449,7 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/adymbp.jpg` },
+                image: { url: `https://files.catbox.moe/o2zvp8.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -457,7 +457,7 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363401765045963@newsletter',
-                        newsletterName: 'TREND-X  𝐐𝐔𝐑𝐀𝐍',
+                        newsletterName: 'LIMKID-X  𝐐𝐔𝐑𝐀𝐍',
                         serverMessageId: 143
                     }
                 }
