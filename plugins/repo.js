@@ -16,16 +16,16 @@ try{
 let repo =`
 *╭──────────────●●►*
 > *BOT OWNER:*
-*|* *TREND-X*
+*|* *LIMKID-X*
 
 > *TREND-X REPO:*
-*|* https://github.com/trendex2030/TREND-X
+*|* https://github.com/jayvon33/limkid-X
 
 > *SUPPORT GROUP:*
-*|* https://whatsapp.com/channel/0029Vb6b7ZdF6sn4Vmjf2X1O
+*|* https://whatsapp.com/channel/0029VbBDAP0JZg4BZXascl1F
 *╰──────────────●●►*
 
-> *CREATED BY TRENDEX*
+> *CREATED BY LIMKIDX*
 `
 await conn.sendMessage(from, { text: repo ,
   contextInfo: {
@@ -35,7 +35,7 @@ await conn.sendMessage(from, { text: repo ,
     isForwarded: false,
     forwardedNewsletterMessageInfo: {
       newsletterJid: '120363401765045963@newsletter',
-      newsletterName: "TREND-X 🍁",
+      newsletterName: "LIMKID-X🍁",
       serverMessageId: 999
     },
 externalAdReply: { 
@@ -43,7 +43,7 @@ title: '𝐀ɭι̇ι̇ 𝐌Ɗ 🍁',
 body: `${pushname}`,
 mediaType: 1,
 sourceUrl: "https://github.com/itx-alii-raza/ALI-MD" ,
-thumbnailUrl: "https://files.catbox.moe/adymbp.jpg" ,
+thumbnailUrl: "https://files.catbox.moe/o2zvp8.jpg" ,
 renderLargerThumbnail: true,
 showAdAttribution: true
 }
@@ -70,7 +70,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/trendex2030/TREND-X';
+    const githubRepoURL = 'https://github.com/jayvon33/limkid-X';
 
     try {
         // Extract username and repo name from the URL
@@ -86,15 +86,15 @@ async (conn, mek, m, { from, reply }) => {
         const repoData = await response.json();
 
         // Format the repository information
-        const formattedInfo = `*𝐇𝐄𝐋𝐋𝐎 𝐓𝐇𝐄𝐑𝐄 TREND-𝐗 𝐖.𝐀 𝐁𝐎𝐓 𝐔𝐒𝐄𝐑!😇👑* 
+        const formattedInfo = `*𝐇𝐄𝐋𝐋𝐎 𝐓𝐇𝐄𝐑𝐄 LIMKID-𝐗 𝐖.𝐀 𝐁𝐎𝐓 𝐔𝐒𝐄𝐑!😇👑* 
 
-> *sɪᴍᴘʟᴇ, ɪᴄʏ, ᴄᴏʟᴅ  & ʀɪᴄʜ ʟᴏᴀᴅᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs, TREND-X ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ.*❄️
+> *sɪᴍᴘʟᴇ, ɪᴄʏ, ᴄᴏʟᴅ  & ʀɪᴄʜ ʟᴏᴀᴅᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs, LIMKID-X ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ.*❄️
 
-*𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐄𝐈𝐍𝐆 TREND-𝐗🫶* 
+*𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐄𝐈𝐍𝐆 LIMKID-𝐗🫶* 
 
 > *ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ sᴛᴀʀ & ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ🌟🍴*
 
-https://github.com/trendex2030/TREND-X
+https://github.com/jayvon33/limkid-X
 ──────────────────
 ${readMore}
 \`BOT NAME:\`❄️
@@ -112,11 +112,11 @@ ${readMore}
 \`DESCRIPTION:\`📃
 > ${repoData.description || 'No description'}\n
 ──────────────────
-\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ TREND-X  ᴛᴇᴄʜ* 🎐`;
+\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ LIMKID-X  ᴛᴇᴄʜ* 🎐`;
 
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
-            image: { url: `https://files.catbox.moe/adymbp.jpg` },
+            image: { url: `https://files.catbox.moe/o2zvp8.jpg` },
             caption: formattedInfo,
             contextInfo: { 
                 mentionedJid: [m.sender],
@@ -124,7 +124,7 @@ ${readMore}
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363401765045963@newsletter',
-                    newsletterName: '☇ TREND-X  suppσrt  ⃪🤖͎᪳᪳𝆺𝅥',
+                    newsletterName: '☇ LIMKID-X  suppσrt  ⃪🤖͎᪳᪳𝆺𝅥',
                     serverMessageId: 143
                 }
             }
@@ -141,7 +141,7 @@ ${readMore}
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363401765045963@newsletter',
-                    newsletterName: '☇ TREND-X  suppσrt⃪🤖͎᪳᪳𝆺𝅥',
+                    newsletterName: '☇ LIMKID-X  suppσrt⃪🤖͎᪳᪳𝆺𝅥',
                     serverMessageId: 143
                 }
             }
