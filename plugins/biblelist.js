@@ -85,11 +85,11 @@ cmd({
 27. Revelation
 
 
-❤️BY  TREND X❤️
+❤️BY  LIMKID X❤️
 `;
 
         // Remplacer ce lien par l'URL de l'image que tu m'enverras
-        const imageUrl = "https://files.catbox.moe/adymbp.jpg"; // Remplace "TON_LIEN_IMAGE_ICI" par ton lien d'image
+        const imageUrl = "https://files.catbox.moe/y81ycy.jpg"; // Remplace "TON_LIEN_IMAGE_ICI" par ton lien d'image
 
         // Vérifier si le message de la commande est correctement reçu
         if (!m.chat) {
@@ -99,7 +99,7 @@ cmd({
         // Envoi de la réponse avec l'image et la liste des livres de la Bible
         await conn.sendMessage(m.chat, {
             image: { url: imageUrl },
-            caption: `📖 *BIBLE LIST BY TREND X*:\n\n` +
+            caption: `📖 *BIBLE LIST BY LIMKID X*:\n\n` +
                      `Here is the complete list of books in the Bible:\n\n` +
                      bibleList.trim() // Ajout du texte des livres de la Bible
         }, { quoted: mek });
