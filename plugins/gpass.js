@@ -58,6 +58,6 @@ cmd({
     });
   } catch (_0x1ad7bb) {
     console.log(_0x1ad7bb);
-    _0x1bb557("❌TREND-X  Error generating password🤕: " + _0x1ad7bb.message);
+    _0x1bb557("❌LIMKID-X  Error generating password🤕: " + _0x1ad7bb.message);
   }
 });
