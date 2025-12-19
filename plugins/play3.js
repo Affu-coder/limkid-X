@@ -48,7 +48,7 @@ _Reply to this message with 1 or 2 to download._`;
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363401765045963@newsletter',
-                newsletterName: 'TREND-X',
+                newsletterName: 'LIMKID-X',
                 serverMessageId: 143
             }
         };
@@ -149,7 +149,7 @@ _Reply with 1, 2 or 3 to this message to download the format you prefer._`;
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363401765045963@newsletter',
-                newsletterName: 'TREND-X -TECH',
+                newsletterName: 'LIMKID-X -TECH',
                 serverMessageId: 143
             }
         };
