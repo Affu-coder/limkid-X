@@ -11,8 +11,8 @@ const quotedContact = {
     },
     message: {
         contactMessage: {
-            displayName: "TREND VERIFIED ✅",
-            vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:B.M.B VERIFIED ✅\nORG:TRENDX-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=254734939236:+254734939236\nEND:VCARD"
+            displayName: "LIMKID VERIFIED ✅",
+            vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:B.M.B VERIFIED ✅\nORG: LIMKID-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=254734939236:+254734939236\nEND:VCARD"
         }
     }
 };
@@ -31,7 +31,7 @@ cmd({
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
             newsletterJid: "120363401765045963@newsletter",
-            newsletterName: "TREND-X",
+            newsletterName: "LIMKID-X",
             serverMessageId: 1
         }
     };
