@@ -32,7 +32,7 @@ cmd({
     const time = moment().tz('Africa/Nairobi').format('HH:mm:ss');
     const date = moment().tz('Africa/Nairobi').format('dddd, MMMM Do YYYY');
 
-    const caption = `╭━━〔 *TREND-X* 〕━━⬣
+    const caption = `╭━━〔 *LIMKID-X* 〕━━⬣
 ┃ 👑 *Total Commands:* ${totalCommands}
 ┃ 📅 *Date:* ${date}
 ┃ ⏰ *Time:* ${time}
@@ -52,8 +52,8 @@ cmd({
           serverMessageId: 2
         },
         externalAdReply: {
-          title: "TREND TECH",
-          body: `ᴘᴏᴡᴇʀᴇᴅ ʙʏ TREND ᴛᴇᴄʜ`,
+          title: "LIMKID TECH",
+          body: `ᴘᴏᴡᴇʀᴇᴅ ʙʏ LIMKID ᴛᴇᴄʜ`,
           mediaType: 1
         }
       }
