@@ -42,7 +42,7 @@ async (conn, mek, m, { from, participants, reply, isGroup, senderNumber, groupAd
             teks += `${randomEmoji} @${mem.id.split('@')[0]}\n`;
         }
 
-        teks += "└──《 *TREND X* 》──";
+        teks += "└──《 *LIMKID X* 》──";
 
         let fakeContact = {
             key: {
@@ -52,8 +52,8 @@ async (conn, mek, m, { from, participants, reply, isGroup, senderNumber, groupAd
             },
             message: {
                 contactMessage: {
-                    displayName: 'TREND-X TECH ✅',
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:TRENDX ✅\nORG:TREND-X;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
+                    displayName: 'LIMKID-X TECH ✅',
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: LIMKID ✅\nORG:TREND-X;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
                     jpegThumbnail: null
                 }
             }
@@ -65,9 +65,9 @@ async (conn, mek, m, { from, participants, reply, isGroup, senderNumber, groupAd
             contextInfo: {
                 externalAdReply: {
                     title: "GROUP PINGER",
-                    body: "Powered by TREND-X tech",
-                    thumbnailUrl: "https://files.catbox.moe/adymbp.jpg",
-                    sourceUrl: "https://github.com/trendex2030",
+                    body: "Powered by LIMKID-X tech",
+                    thumbnailUrl: "https://files.catbox.moe/o2zvp8.jpg",
+                    sourceUrl: "https://github.com/jayvon33",
                     mediaType: 1,
                     renderLargerThumbnail: false,
                     showAdAttribution: true
@@ -76,7 +76,7 @@ async (conn, mek, m, { from, participants, reply, isGroup, senderNumber, groupAd
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: "120363401765045963@newsletter",
-                    newsletterName: "TREND-X TECH",
+                    newsletterName: "LIMKID-X TECH",
                     serverMessageId: "",
                 }
             }
