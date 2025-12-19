@@ -558,7 +558,7 @@ cmd({
 📝 *Description:* ${metadata.desc || "None"}
 🆔 *Group ID:* ${metadata.id}
 
-${config.FOOTER || "Powered by TRENDX-TECH"}
+${config.FOOTER || "Powered by LIMKID-TECH"}
 `.trim();
 
         await conn.sendMessage(from, {
