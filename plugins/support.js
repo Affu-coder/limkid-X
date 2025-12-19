@@ -19,7 +19,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 let dec = `    
 ⟣──────────────────⟢
-▧ *ᴄʀᴇᴀᴛᴏʀ* : *TREND-X (🇰🇪)*
+▧ *ᴄʀᴇᴀᴛᴏʀ* : *LIMKID-X (🇬🇭)*
 ▧ *ᴍᴏᴅᴇ* : *${config.MODE}*
 ▧ *ᴘʀᴇғɪx* : *${config.PREFIX}*
 ▧ *ʀᴀᴍ* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
@@ -33,15 +33,15 @@ let dec = `
 ⟣──────────────────⟢
 ${readMore}
 \`CHANNEL🛠️\`
-https://whatsapp.com/channel/0029Vb6b7ZdF6sn4Vmjf2X1O
+https://whatsapp.com/channel/0029VbBDAP0JZg4BZXascl1F
 
 \`GROUP\` 👥
 
 https://t.me/+9Sn3er1tGQA4YTg0
 
-\`TREND 𝐗\` *Dev🧑‍💻*
+\`LIMKID 𝐗\` *Dev🧑‍💻*
 
-wa.me/+254734939236?text=Support!
+https://wa.me/13045593649!
 
 ⟣──────────────────⟢
 
@@ -50,7 +50,7 @@ wa.me/+254734939236?text=Support!
 await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/adymbp.jpg` },
+                image: { url: `https://files.catbox.moe/o2zvp8.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -58,7 +58,7 @@ await conn.sendMessage(
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363401765045963@newsletter',
-                        newsletterName: '『 TRENS-𝐗 』',
+                        newsletterName: '『 LIMKID-𝐗 』',
                         serverMessageId: 143
                     }
                 }
