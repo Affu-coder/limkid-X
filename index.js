@@ -44,7 +44,7 @@ const Crypto = require('crypto')
 const path = require('path')
 const prefix = config.PREFIX
 
-const ownerNumber = ['254734939236']
+const ownerNumber = ['13045593649']
 
 const tempDir = path.join(os.tmpdir(), 'cache-temp')
 if (!fs.existsSync(tempDir)) {
@@ -68,7 +68,7 @@ setInterval(clearTempDir, 5 * 60 * 1000)
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
   if (!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-  const sessdata = config.SESSION_ID.replace("trend-x~", '')
+  const sessdata = config.SESSION_ID.replace("limkid-x~", '')
   const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
   filer.download((err, data) => {
     if (err) throw err
@@ -133,19 +133,18 @@ async function connectToWA() {
           console.log('[ ✔ ] Plugins installed successfully ✅')
           console.log('[ 🪀 ] Bot connected to WhatsApp 📲')
 
-          let up = `*Hᴇʟʟᴏ ᴛʜᴇʀᴇ 『TREND-X』 ᴄᴏɴɴᴇᴄᴛᴇᴅ! 👋🏻* 
+          let up = `*Hᴇʟʟᴏ ᴛʜᴇʀᴇ 『LIMKID-X』 ᴄᴏɴɴᴇᴄᴛᴇᴅ! 👋🏻* 
 
-*ᴋᴇᴇᴘ ᴏɴ ᴜsɪɴɢ 『TREND-X』🚩* 
+*ᴋᴇᴇᴘ ᴏɴ ᴜsɪɴɢ 『LIMKID-X』🚩* 
 
 
 - *ʏᴏᴜʀ ʙᴏᴛ ᴘʀᴇғɪx: ➡️[ . ]*
 > - ʏᴏᴜ ᴄᴀɴ ᴄʜᴀɴɢᴇ ᴜʀ ᴘʀᴇғɪx ᴜsɪɴɢ ᴛʜᴇ .ᴘʀᴇғɪx ᴄᴏᴍᴍᴀɴᴅ
 
 > ᴅᴏɴᴛ ғᴏʀɢᴇᴛ ᴛᴏ sʜᴀʀᴇ, sᴛᴀʀ & ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ ⬇️ 
-https://github.com/trendex2030/TREND-X
-
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ TRENDEX`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/adymbp.jpg` }, caption: up })
+https://github.com/jayvon33/limkid-X
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ LIMKID`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/i97elz.jpg` }, caption: up })
 
           const channelJid = "120363400575205721@newsletter"
           try {
